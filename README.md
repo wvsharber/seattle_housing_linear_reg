@@ -31,7 +31,7 @@ conda env create -f environment.yml
 conda activate linreg-env
  
 # make linreg-env available to you as a kernel in jupyter
-python -m ipykernel install --user --name oy-env --display-name "linreg-env"
+python -m ipykernel install --user --name linreg-env --display-name "linreg-env"
 ```
 `reports/model_builder.ipynb` contains all functions used to build model and creates graph
 `reports/king_county_home_price_analysis.ipynb` contains analysis of results 
