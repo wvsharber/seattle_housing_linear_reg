@@ -6,9 +6,10 @@ Our model predicticed a 78% corellation for home price. We can fail to reject th
 
 
 ## DELIVERABLES
-* `/src` directory stores all relevant source code.
-* `/reports` stores all relevant raw and processed data files.
-* `/visualization` includes all relevant visualization figures.
+* `/data/raw` directory stores all relevant source code.
+* `/src` import files
+* `/reports` stores all reports.
+* `/reports/figures` includes all relevant visualization figures.
  
 ## Setup Instructions
  
