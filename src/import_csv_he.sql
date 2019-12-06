@@ -178,15 +178,15 @@ CREATE TABLE resbldg (
 
 -- Copy the csv contents of the 2017 5-year persons data into the table
 COPY parcel
-FROM '/Users/wvsharber/FlatironLessons/seattle_housing_linear_reg/data/raw/EXTR_Parcel.csv'
+FROM '/Users/hunter_ewing/Documents/ds_10_28/seattle_housing_linear_reg/data/raw/EXTR_Parcel.csv'
 DELIMITER ',' CSV HEADER ENCODING 'latin-1';
 
 -- Copy the txt contents of the 2010 PUMA names data into the table
 COPY resbldg
-FROM '/Users/wvsharber/FlatironLessons/seattle_housing_linear_reg/data/raw/EXTR_ResBldg.csv'
+FROM '/Users/hunter_ewing/Documents/ds_10_28/seattle_housing_linear_reg/data/raw/EXTR_ResBldg.csv'
 DELIMITER ',' CSV HEADER;
 
 -- Copy the csv contents of the 2017 WA jobs data into the table
 COPY rpsale
-FROM '/Users/wvsharber/FlatironLessons/seattle_housing_linear_reg/data/raw/EXTR_RPSale.csv'
+FROM '/Users/hunter_ewing/Documents/ds_10_28/seattle_housing_linear_reg/data/raw/EXTR_RPSale.csv'
 DELIMITER ',' CSV HEADER;
