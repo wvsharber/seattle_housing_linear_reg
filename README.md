@@ -23,14 +23,14 @@ Create DB Seattle_housing assuming you have PostgreSQL with `import_csv.sql` fil
 This project relies on you using the [`environment.yml`](environment.yml) file to recreate the `linreg-env` conda environment. To do so, please run the following commands:
  
 ```bash
-# create the oy-env conda environment
+# create the linreg-env conda environment
 # note: this make take anywhere from 10-20 minutes
 conda env create -f environment.yml
  
-# activate the oy-env conda environment
+# activate the linreg-env conda environment
 conda activate linreg-env
  
-# make oy-env available to you as a kernel in jupyter
+# make linreg-env available to you as a kernel in jupyter
 python -m ipykernel install --user --name oy-env --display-name "linreg-env"
 ```
 `reports/model_builder.ipynb` contains all functions used to build model and creates graph
